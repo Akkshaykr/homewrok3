@@ -1,13 +1,16 @@
 import React from 'react';
-import SlamBookForm from './form';
-import './form.css';
+import Sample from './sample'; // Importing the Sample component
+import App from './day5';
 
 const App = () => {
   return (
     <div>
-      <SlamBookForm />
+
+      <App />
+      
+      
     </div>
   );
 };
 
-export default App; 
+export default App;
