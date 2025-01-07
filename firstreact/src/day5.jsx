@@ -3,6 +3,10 @@ function App(){
     let [count,setcount]=useState(0);
     useEffect(()=>{
         console.log("Value updated");
+
+        return (()=>(
+            console.log("Cleanup coding")
+        ))
     },[count])
 
 
